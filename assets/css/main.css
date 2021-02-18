@@ -8,22 +8,65 @@
 
 @font-face {
   font-family: "hattonmedium";
-  src: url("ghinasyafina.github.io/assets/webfonts/hatton-medium-webfont.woff2")
-      format("woff2"),
-    url("ghinasyafina.github.io/assets/webfonts/hatton-medium-webfont.woff")
-      format("woff");
+  src: url("/assets/webfonts/hatton-medium-webfont.woff2") format("woff2");
+  url("/assets/webfonts/hatton-medium-webfont.woff")
+  format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "hattonregular";
-  src: url("ghinasyafina.github.io/assets/webfonts/hatton-regular-webfont.woff2")
-      format("woff2"),
-    url("ghinasyafina.github.io/assets/webfonts/hatton-regular-webfont.woff")
+  src: url("/assets/webfonts/hatton-regular-webfont.woff2") format("woff2");
+  url("/assets/webfonts/hatton-regular-webfont.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sauce_sanslight';
+  src: url('/assets/webfonts/opensaucesans-light-webfont.woff2') format('woff2'),
+       url('/assets/webfonts/opensaucesans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sauce_sanslight_italic';
+  src: url('/assets/webfonts/opensaucesans-lightitalic-webfont.woff2') format('woff2'),
+       url('/assets/webfonts/opensaucesans-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sauce_sansmedium';
+  src: url('/assets/webfonts/opensaucesans-medium-webfont.woff2') format('woff2'),
+       url('/assets/webfonts/opensaucesans-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sauce_sansmedium_italic';
+  src: url('/assets/webfonts/opensaucesans-mediumitalic-webfont.woff2') format('woff2'),
+       url('/assets/webfonts/opensaucesans-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sauce_sansregular';
+  src: url('/assets/webfonts/opensaucesans-regular-webfont.woff2') format('woff2'),
+       url('/assets/webfonts/opensaucesans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 html,
