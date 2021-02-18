@@ -334,6 +334,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
+  font-family: 'open_sauce_sanslight';
 }
 
 h1,
@@ -360,7 +361,7 @@ h6 a {
 
 h1 {
   font-size: 2.75em;
-  font-family: hattonmedium, Arial, sans-serif;
+  font-family: 'hattonmedium', Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
