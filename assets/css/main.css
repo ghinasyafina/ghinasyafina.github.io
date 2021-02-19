@@ -69,6 +69,10 @@
 
 }
 
+.top{
+  vertical-align:top;
+  }
+
 html,
 body,
 div,
@@ -2717,6 +2721,17 @@ input[type="radio"] + label:before {
   color: #953d75;
 }
 
+/* SVG */
+
+/* .svg-container { 
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; 
+	vertical-align: middle; 
+	overflow: hidden; 
+} */
+
 /* Image */
 
 .image {
@@ -2757,6 +2772,8 @@ input[type="radio"] + label:before {
   display: block;
   margin: 0 0 2em 0;
   width: 100%;
+  /* height: auto;
+  text-align: center; */
 }
 
 .image.fit img {
