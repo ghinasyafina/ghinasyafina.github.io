@@ -3389,8 +3389,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-  /* background-color: #5052b5; */
-  background-color: #e8e4d9;
+  background-color: #5052b5;
 }
 
 .wrapper.style2-alt {
@@ -3999,7 +3998,7 @@ body.is-preload #sidebar nav ul li {
 
 #intro {
   background-attachment: fixed;
-  background-image: url("images/intro3.png");
+  background-image: url("images/stars.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 100% 100%;
