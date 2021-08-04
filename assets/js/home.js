@@ -1,18 +1,18 @@
 TweenMax.to(".block-1", 2, {
-    x: "-230",
+    x: "-180",
     y: "-130",
-    scale: "2.0",
+    scale: "1.9",
     ease: Expo.easeInOut,
 });
 TweenMax.to(".block-2", 2, {
-    x: "-150",
-    y: "120",
+    x: "-60",
+    y: "30",
     scale: "1.2",
     ease: Expo.easeInOut,
 });
 TweenMax.to(".block-3", 2, {
-    x: "-40",
-    y: "-20",
+    x: "90",
+    y: "-70",
     scale: "1.1",
     ease: Expo.easeInOut,
 });
