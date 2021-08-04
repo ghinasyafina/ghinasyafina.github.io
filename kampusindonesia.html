@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Ghina's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <a href="index.html" class="title">Ghina's Portfolio</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="comingsoon.html" class="active">Next Project &gt;</a></li>
+          <!-- <li><a href="elements.html">Elements</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main" class="wrapper">
+        <div class="inner">
+          <h1 class="major">LinkedIn Jobs Redesign (written in Bahasa)</h1>
+          <h2>Overview</h2>
+          <p>
+            LinkedIn merupakan salah satu jejaring sosial yang keberadaannya sudah 
+            tidak diragukan lagi bagi para profesional. Sebagian besar perekrut
+             menggunakan jejaring sosial dalam pekerjaan mereka saat ini dan LinkedIn 
+             adalah jejaring sosial yang paling sering mereka gunakan, menurut Jobvite. 
+             Berbagai fitur LinkedIn tersedia dan dapat membantu penggunanya dalam meningkatkan 
+             karir mereka, salah satunya adalah dengan menyediakan laman Jobs yang dapat membantu 
+             penggunanya menemukan pekerjaan atau magang yang tepat.
+          </p>
+          <p>
+            Beberapa waktu terakhir ini, saya sering mengunjungi LinkedIn Jobs untuk mencari kesempatan magang. Alasan utama saya memilih untuk mencari magang melalui LinkedIn ialah karena reputasinya yang sudah melekat sangat baik. Selain itu, jika saya mendapatkan informasi mengenai lowongan, saya juga dapat dengan mudah mengakses profil perusahaannya tanpa harus mencari informasi mengenai perusahaan tersebut diluar LinkedIn. 
+          </p>
+          <h2>User Research and Pain Points</h2>
+          <p>
+            Selama penelusuran dan pengalaman saya menggunakan LinkedIn untuk mencari lowongan magang, saya menemukan beberapa hal yang seharusnya dapat ditingkatkan guna memaksimalkan tampilan dan experience dari sisi pengguna, yaitu:
+			<ul style="margin-left: 2em;">
+				<li>Pengguna tidak mendapatkan notifikasi lebih lanjut mengenai status lamaran yang sudah diajukan</li>
+				<li>Filter pencarian pekerjaan terlalu kompleks dan tidak fleksibel</li>
+				<li>Pemberitahuan mengenai lowongan yang tersedia dan yang relate dengan profil pengguna masuk begitu banyak ke dalam tab Notifikasi sehingga membuat pengguna terganggu akan spam</li>
+			</ul>
+		  </p>
+      <p>
+        Ketiga poin diatas juga mewakili sebagian besar hasil user research yang saya lakukan sebelum memulai project ini. Sebelum membuat ketiga poin diatas, saya memulai dengan membuat survei kecil dengan memasukkan beberapa pertanyaan seperti:
+        <ol style="margin-left: 2em;">
+          <li>Seberapa sering Anda menggunakan LinkedIn untuk mencari magang?</li>
+          <li>Apakah ada kesulitan atau ketidaknyamanan saat menggunakan LinkedIn untuk mencari magang?</li>
+        <li>Apa yang Anda sukai tentang menggunakan LinkedIn untuk mencari lowongan magang?</li>  
+        <li>Boleh diceritakan sedikit tentang proses pencarian magang yang biasanya Anda lakukan di LinkedIn?</li>
+        <li>Apakah Anda mengetahui cara mengkustomisasi atau melakukan filter saat melakukan pencarian magang di LinkedIn? Jika tahu, bagaimana caranya?</li>
+        <li>Bagaimana tanggapan anda tentang filter pencarian magang di LinkedIn?</li>
+        </ol>
+      </p>
+      <p>
+        Saya mencoba untuk memahami dan membuat list mengenai masalah apa saja yang mereka hadapi dan hal-hal apa saja yang perlu dipertahankan.
+      </p>
+
+      <h2>Persona</h2>
+		  <p> 
+        Lebih lanjut mengenai hasil survei yang saya lakukan, dapat dilihat sebagai berikut:
+      <br></br>
+      <span class="image fit"><img src="images/kipersona.svg" alt="" style="width: 100%, height: auto"/></span>
+		  </p>
+      <p>
+        LinkedIn dinilai tidak maksimal dalam menangani fitur Jobsnya. Beberapa pengguna yang sering mencari lowongan magang mengeluhkan beberapa hal yang mirip seperti notifikasi status lamaran yang mereka ajukan dan filter pencarian yang begitu kompleks.
+      </p>
+		  <h2>Challenge</h2>
+		  <p>
+        Melihat pain points dan user persona yang sudah saya paparkan sebelumnya, tujuan saya dalam project ini adalah untuk kembali meminimalisir hal-hal yang berlebihan dan terasa kompleks bagi pengguna dalam proses pengajuan lamaran magang. Premis sederhananya: klik button, dapatkan pekerjaan. Sasaran lebih lanjut saya adalah untuk:
+        <ul style="margin-left: 2em;">
+          <li>Membuat LinkedIn agar lebih mudah untuk digunakan oleh semua orang</li>
+          <li>Memberikan pelamar pekerjaan lebih banyak kendali atas waktu dan pengajuan lamaran mereka</li>
+          <li>Mempertahankan engagement LinkedIn dalam menotifikasi pengguna namun memaksimalkannya dalam sisi lamaran yang telah diajukan pengguna</li>
+          <li>Membuat platform pencari pekerjaan ini berbeda dengan adanya inovasi baru yang dapat membantu pengguna</li>
+        </ul>
+		  </p>
+
+      <h2>Design Solutions</h2>
+      <p>Terkait pain points yang telah ditentukan pula, disini saya akan mencoba menyelesaikan masalah-masalah tersebut.
+        <ul style="margin-left: 2em;">
+          <li><span class="image fit"><img src="images/kifeatures.svg" alt="" style="width: 100%, height: auto"/></span>
+          Untuk mengatasi pain point pertama, pengguna tak perlu risau lagi dan bertanya-tanya mengenai status lamaran mereka. Tab notifikasi khusus pada laman Jobs ini dapat membantu mereka untuk melihat status lamaran tersebut. Selain itu, terdapat kalender pengingat untuk mengatur jadwal lamaran atau jadwal wawancara pengguna jika pengguna ternotifikasi. Hal ini tentu saja dapat membuat pengguna menyimpan lebih banyak waktu karena mereka tidak harus membuka aplikasi lain untuk tetap teratur, untuk melihat status lamaran maupun untuk mencatat informasi mengenai jadwal wawancara mereka. Semuanya kini ada dalam laman jobs LinkedIn. Saya terilhami untuk merancang secara inovatif dengan menambahkan fitur yang terorganisasi tersebut untuk menciptakan alur pengguna yang lancar di LinkedIn. Fitur diatas juga mendukung solusi atas pain point yang ketiga. Terpisahnya tab notifikasi akun sosial LinkedIn dan laman jobs mereka dapat meminimalisir terjadinya spam karena kini notifikasi mengenai lowongan dan laman jobs sudah berdiri sendiri.
+        </li>
+        <li>
+          <span class="image fit"><img src="images/kifeatures2.svg" alt="" style="width: 100%, height: auto"/></span>
+          Untuk mengatasi pain point ketiga, dalam solusi yang saya tawarkan, pengguna dapat memilih secara multiple kriteria magang yang mereka inginkan. Ada banyak kriteria yang dapat dipilih dan hal ini membuat pengguna dapat mencari keinginannya secara lebih fleksibel. Nantinya, lowongan-lowongan yang muncul adalah lowongan yang memenuhi kriteria-kriteria tersebut.
+        </li>
+      </ul> 
+      </p>
+
+      <h2>Wireframe & High-fidelity Design</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align: center;">Wireframe</th>
+            <th style="text-align: center;">High-fidelity Design</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="top" style="text-align: center;">
+            <img src="images/kiwireframe.png" alt="" />
+            
+          </td>
+          <td style="text-align: center;">
+            <img src="images/kihifi.png" alt="" />
+            </td>
+        </tr>
+        </tbody>
+        </table>
+
+        <h2>Conclusion</h2>
+        <p>Proses redesign ini memakan waktu yang banyak di sela-sela padatnya jadwal perkuliahan saya. Namun, semua ini cukup membuat saya puas karena sedikit demi sedikit bisa berproses untuk mengejar apa yang saya inginkan dimasa depan nanti. Walaupun UI/UX Design Challenge ini adalah tuntutan dari Kampus Indonesia dalam tahap seleksi Internship Batch 5-nya, saya sangat menikmati proses yang saya lewati. Apa yang saya tulis merupakan hasil pembelajaran saya selama ini, mohon maaf sekiranya jika ada yang kurang. Saya sangat senang menerima koreksian, saran, dan pendapat kakak-kakak Kampus Indonesia mengenai pekerjaan saya ini. Terima kasih banyak!        </p>
+
+      <h2>Archive</h2>
+					<ul class="alt">
+						<li><em>Wireframe (pdf)</em> - <a href="https://drive.google.com/file/d/1RN-ci7KIhSoRKSzR_53SKTfXQwA6Iwsy/view?usp=sharing" target="_blank" rel="noopener noreferrer">click here to access</a></li>
+            <li><em>High-fidelity Design (pdf)</em> - <a href="https://drive.google.com/file/d/16X6iUHLWcl0idfJPUxxYXA9S5D9qfPei/view?usp=sharing" target="_blank" rel="noopener noreferrer">click here to access</a></li>
+						<li><em>Figma (prototype)</em> - <a href="https://www.figma.com/proto/rjPQS6rngDkzk7bjoqOmwk/Task-1_UIUX-Designer_Ghina-Syafina-Syahrani?node-id=1%3A9&viewport=958%2C603%2C0.036984607577323914&scaling=scale-down-width" target="_blank" rel="noopener noreferrer">click here to access</a></li>
+            <!-- <li>Sagittis adipiscing.</li>
+						<li>Felis enim feugiat.</li> -->
+					</ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; 2021  Ghina Syafina</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
